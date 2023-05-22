@@ -2,6 +2,8 @@
 
 const createStack = // ...
 
+// ---------
+
 const stack = createStack();
 
 console.log(stack.isEmpty());             // => true
