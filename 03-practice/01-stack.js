@@ -1,6 +1,29 @@
 'use strict';
 
-const createStack = // ...
+const createStack = function () {
+    // Daten
+    const data = [];
+
+    // Methoden
+    const isEmpty = function () {
+        return data.length === 0;
+    };
+
+    const push = function (x) {
+        data.unshift(x);
+    };
+
+    const top = function () {
+        return data[0];
+    };
+
+    const pop = function () {
+        return data.shift();
+    };
+
+    // Öffentliches Interface
+    return { isEmpty, push, top, pop };
+};
 
 // ---------
 
