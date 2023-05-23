@@ -5,6 +5,6 @@
         "rome": "12.1.2"
     },
     "scripts": {
-        "analyze": "npx rome ci .",
+        "analyze": "npx rome ci ."
     }
 }
