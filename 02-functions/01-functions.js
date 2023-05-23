@@ -23,3 +23,9 @@ console.log(subtract(23, 42));
 
 console.log(typeof add);
 console.log(typeof subtract);
+
+// Function constructor
+add = new Function('a', 'b', 'return a + b;');
+
+// Lambda expression
+subtract = (left, right) => left - right;
