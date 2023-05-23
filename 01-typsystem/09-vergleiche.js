@@ -30,6 +30,7 @@ if (null == undefined) {
 }
 
 if (0 === '0') {
+    // rome-ignore lint/nursery/noConsoleLog: For demonstration purposes.
     console.log("0 === '0' ist true");
 } else {
     console.log("0 === '0' ist false");
