@@ -2,9 +2,11 @@
     "name": "my-app",
     "version": "0.0.1",
     "devDependencies": {
-        "rome": "12.1.2"
+        "rome": "12.1.2",
+        "typescript": "5.0.4"
     },
     "scripts": {
-        "analyze": "npx rome ci ."
+        "analyze": "npx rome ci .",
+        "compile": "npx tsc"
     }
 }
